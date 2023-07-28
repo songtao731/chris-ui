@@ -10,7 +10,8 @@
 </template>
 
 <script setup lang="ts">
-import { useTable } from "chriszj";
+import { useTable } from "chriszj/chris-ui.mjs";
+
 
 const tableData = [
   {

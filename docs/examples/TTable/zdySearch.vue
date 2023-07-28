@@ -36,7 +36,8 @@
 </template>
 
 <script setup lang="ts">
-import { useTable } from "chriszj";
+import { useTable } from "chriszj/chris-ui.mjs";
+
 import { ref, computed } from "vue";
 //模拟表格的数据
 const tableData = {
